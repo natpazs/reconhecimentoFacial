@@ -23,7 +23,7 @@ cd reconhecimentoFacial
 Clone o repositório dentro da pasta:
 
 ```bash
-git clone https://github.com/natpazs/reconhecimentoFacial.git .
+git clone https://github.com/natpazs/reconhecimentoFacial.git 
 ```
 
 ### 3. Criar o ambiente virtual
