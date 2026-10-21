@@ -16,7 +16,7 @@ def capturar_foto(caminho):
             print("Falha ao capturar o vídeo")
             break
 
-        cv2.imshow("Camera - Cadastro", frame)
+        cv2.imshow("Camera", frame)
 
         if cv2.waitKey(1) & 0xFF == ord(' '):  # Pressione a barra de espaço para capturar a foto
             cv2.imwrite(caminho, frame)
